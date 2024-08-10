@@ -36,8 +36,8 @@ const About=()=>{
                     <div className="text-textColor text-xl w-[90%] text-justify my-8 lg-mx:my-0 font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">{Info.bio}</div>
 
                 <div className="xs-mx:w-[90%] flex gap-3 xs-mx:justify-between">
-                  <Button component="a" href="#" target="blank" className="!text-bgColor !w-fit" size="lg"  variant="filled" color="#64FFDA">Check Resume</Button>
-                  <Button component="a" href="/NelsonResume.pdf" download={Info.name} className="focus-visible:!outline-none !text-primaryColor !w-fit xs-mx:!w-[46%]" size={btn} variant="outline" color="#64FFDA" rightSection={<IconDownload size={20} />}>Download</Button></div>
+                  <Button component="a" href="NelsonResume.pdf" target="blank" className="!text-bgColor !w-fit" size="lg"  variant="filled" color="#64FFDA">Check Resume</Button>
+                  <Button component="a" href="NelsonResume.pdf" download={Info.name} className="focus-visible:!outline-none !text-primaryColor !w-fit xs-mx:!w-[46%]" size={btn} variant="outline" color="#64FFDA" rightSection={<IconDownload size={20} />}>Download</Button></div>
                 
             </div>
             <div className="h-[50vh] flex justify-center items-center overflow-hidden rounded-full mr-14 w-[25vw]" id="photo">
